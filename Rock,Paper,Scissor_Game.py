@@ -1,9 +1,9 @@
 import random as rd
 Game={1:"Rock",2:"Paper",3:"Scissors"}
 k=input("Do you want to Start the game(y/n) ")
-comp_pt=0
-user_pt=0
 while (k=='y'):
+	comp_pt=0
+        user_pt=0
 	while True:
 		comp=rd.randint(1,3)
 		user=int(input("1: Rock 2: Paper 3: Scissors"))
